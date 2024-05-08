@@ -5,6 +5,8 @@ from sqlalchemy.orm import sessionmaker
 
 app = FastAPI()
 
+
+
 SQLALCHEMY_DATABASE_URL = "postgresql://user:asdrtygcn76@localhost/dbname"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
